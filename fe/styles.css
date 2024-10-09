@@ -1,6 +1,6 @@
 body {
     margin: 0px;
-    background-color: aliceblue;
+    background-color: rgb(228, 234, 237);
     font-family: 'Nerko One', cursive;
 }
 
@@ -12,17 +12,23 @@ button {
 }
 
 .page-nav {
-    background-color: #2196F3;
-    border: 1px solid black;
+    background-image: url(images/15356484_10154103146360777_5788552551540547597_n.jpg);
+    background-color: #ab92ad;
+    border: 1px solid rgb(103, 168, 190);
     position: relative;
+
+    background-size: 100% 300%; /* La imagen se escala para cubrir el contenedor */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+
 }
 
 .page-nav h1 {
-    margin: 20px;
+    margin: 100px;
 }
 
 .button-checkout {
-    background-color: white;
+    background-color: rgb(146, 181, 205);
     color: black;
     border: 2px solid #008CBA; /* Blue */
     transition-duration: 0.4s;
@@ -33,7 +39,7 @@ button {
 
 .button-checkout:hover {
     background-color: #008CBA; /* Blue */
-    color: white;
+    color: white (250, 249, 249);
 }
 
 .page-content {
@@ -51,7 +57,7 @@ button {
 .title {
     font-size: 40px;
     font-weight: bold;
-    text-align: center;
+    text-align: left;
 }
 
 .product-container {
@@ -61,6 +67,7 @@ button {
     position: relative;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
     background-color: white;
+    background-image: url(images/1722455386.jpg);
 }
 
 .product-container:hover {

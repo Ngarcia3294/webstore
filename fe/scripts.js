@@ -110,7 +110,7 @@ async function pay() {
     document.getElementById("state").disabled = true;
     document.getElementById("country").disabled = true;
   } catch {
-    window.alert("Sin stock");
+    window.alert("Out of stock");
   }
 
   order = {
